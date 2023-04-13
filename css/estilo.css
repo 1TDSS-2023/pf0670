@@ -41,3 +41,26 @@
     color: #000000;
 }
 
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+.tit-sec{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 2em;
+}

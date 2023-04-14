@@ -2,6 +2,10 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+} 
+
+html{
+    font-size: 62.8%;
 }
 
 .cabecalho{
@@ -28,7 +32,7 @@
 
 .cabecalho a{
     text-decoration: none;
-    font-size: 4em;
+    font-size: 4rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     color: #fff;
@@ -59,8 +63,44 @@
     flex-basis: 300px;
 }
 
+
 .tit-sec{
     text-align: center;
     margin: 2% 0;
-    font-size: 2em;
+    font-size: 3rem;
 }
+
+.rodape{
+    display: flex;
+   justify-content: space-around;
+    margin: 5% 0 0 0;
+}
+
+.rodape h2{
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #d9d9d9;
+}
+
+.rodape nav{
+    flex-grow: 6;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.rodape img{
+    display: block;
+    width: 9%;
+    max-width: 9%;
+    margin: 0 auto;
+}
+
+.rodape a{
+    display: block;
+    flex-grow: 1;
+    background-color: #d9d9d9;
+}
+
+

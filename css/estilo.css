@@ -42,3 +42,24 @@ html{
 
 /* BREAKPOINT 590px */
 
+table{
+    border-collapse: collapse;
+    margin:5% auto;
+}
+
+th, td{
+    border: solid 1px #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(odd){
+    background-color: #cccccc;
+}
+
+tr:hover{
+    background-color: #191010b3;
+}
+
+td[colspan]{
+    text-align: center;
+}

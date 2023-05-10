@@ -47,3 +47,10 @@ btn.addEventListener("click", function(){
 } );
 
 
+/* <h2 class="tit-sec">Seçao de Fotos</h2> */
+
+const h2Element = document.querySelector("#meu-btn");
+
+console.log(h2Element);
+
+//querySelectorAll()

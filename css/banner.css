@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background-color: blue;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+}
+
+.banner-1{
+    flex-grow: 1;
+    background-color: brown;
+    color: #fff;
+}
+
+.conteudo{
+    flex-grow: 3;
+    background-color: chocolate;
+    color: #fff;
+}
+
+.banner-2{
+    flex-grow: 1;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.rodape{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background-color: #dc143c;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+

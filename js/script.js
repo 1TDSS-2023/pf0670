@@ -137,8 +137,6 @@ elements.forEach( (el)=>{
     }    
 });
 
-
-
 /* <h2 class="tit-sec">Seçao de Fotos</h2> */
 
 const h2Element = document.querySelector("#meu-btn");

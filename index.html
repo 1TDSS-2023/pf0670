@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MEU-SITE</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    
+    <script src="./js/script.js" defer></script>
+
 </head>
 
 <body>
@@ -22,8 +25,63 @@
 
     <h2 class="tit-sec">Seçao de Fotos</h2>
 
+    <!-- <button onclick="alert(this.innerText)">Olá Mundo</button> -->
+
+    
+    <button value="click" id="meu-btn">Click</button>
+    
+    <script>
+        //COMENTÁRIO DE LINHA
+        /*
+            COMENTÁRIO DE BLOCO
+        */
+
+        // //Declarar variáveis com a palavra reservada ( var ) :
+
+        // var nr1 = 10;
+        // var nr2 = 5;
+
+        // //Imprimindo variáveis com a classe ( console ):
+        // //VAMOS CRIAR AS OPERAÇÕES ARITMÉTICAS BÁSICAS
+
+        // //ADIÇÃO
+        // console.log(nr1+nr2);
+        // //SUBTRAÇÃO
+        // console.log(nr1-nr2);
+        // //MULTIPLICAÇÃO
+        // console.log(nr1*nr2);
+        // //DIVISÃO
+        // console.log(nr1/nr2);
+
+        // //REPITA AS OPERAÇÕES AGORA ADICIONANDO O TEXTO RESULTADO ANTES DAS OPERAÇÕES:
+        // //ADIÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1+nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1+nr2}`);
+        // //SUBTRAÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " , (nr1-nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1-nr2}`);
+        // //MULTIPLICAÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1*nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1*nr2}`);
+        // //DIVISÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1/nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1/nr2}`);
+
+
+
+
+
+
+
+    </script>
+
+
     <section class="conteudo">
-        <div>
+        <div class="teste">
             <img src="./img/lobo1.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
@@ -36,7 +94,7 @@
             <p>Legenda</p>
         </div>
         <div>
-            <img src="./img/lobo4.jpg" alt="Lobo">
+            <img class="teste" src="./img/lobo4.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
         <div>
@@ -49,15 +107,56 @@
         </div>
     </section>
 
+
+    <table class="teste">
+        <tr>
+            <th>Nome</th>
+            <th>Espécie</th>
+            <th>Habitat</th>
+            <th>Pelagem</th>
+            <th>Incidência</th>
+        </tr>
+        <tr>
+            <td colspan="2">Lupus Canides</td>
+            <!-- <td>Canídeo</td> -->
+            <td>Floresta</td>
+            <td>Cinzenta</td>
+            <td>América do Norte</td>
+        </tr>
+        <tr>
+            <td>Vulpus vulpe</td>
+            <td>Canídeo</td>
+            <td>Tundra</td>
+            <td>Marrom</td>
+            <td>Américas / Europa / Ásia</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Chrysocyon brachyurus</td>
+            <td>Canídeo</td>
+            <td>Mata Pampas</td>
+            <td>Marrom</td>
+            <td>América do Sul</td>
+        </tr>
+        <tr>
+            <!-- <td>Lupus Canides</td> -->
+            <td>Canídeo</td>
+            <td>Floresta</td>
+            <td>Cinzenta</td>
+            <td>América do Norte</td>
+        </tr>
+
+    </table>
+
     <footer class="rodape">
-        <h2>Fale Conosco</h2>
-        <nav>
+        <h2 class="teste">Fale Conosco</h2>
+
+        <nav class="teste">
             <a href="#"><img src="./img/social-1-24x.png" alt="Logo Github"></a>
             <a href="#"><img src="./img/social-2-24x.png" alt="Logo facebook"></a>
             <a href="#"><img src="./img/social-3-24x.png" alt="Logo twitter"></a>
         </nav>
     </footer>
-
+    
 </body>
 
 </html>

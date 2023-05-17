@@ -1,0 +1,7 @@
+div{
+    user-select: none;
+}
+
+.fa{
+    cursor: pointer;
+}
